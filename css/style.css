@@ -28,3 +28,22 @@
     color:white;
     padding:0.1rem;
 }
+/* MAIN */
+.row{
+    height:30rem;
+    flex-basis:80%;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(138, 123, 123);
+    margin:auto;
+    margin-top:3rem;
+    gap:1rem;
+}
+
+.row-info{
+    display:flex;
+    justify-content:center;
+    background-color: rgb(95, 89, 89);
+    padding:0rem 10rem;
+}
+
