@@ -4,18 +4,10 @@
 }
 .header-container{
     display:flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
-}
-
-#header-nav li, a{
-    display:inline;
-    text-decoration: none;
-    font-size:1rem;
-    line-height:3rem;
-    color:white;
-    padding:1rem 0.5rem;
-    font-family: sans-serif;
+    margin-bottom:2.9rem;
+    gap:12rem;
 }
 .logo{
     flex-basis:10%;
@@ -23,27 +15,115 @@
 }
 .icons{
     flex-basis:20%;
+    text-align: right;
 }
 .header>i{
     color:white;
     padding:0.1rem;
 }
+
+/* header&footer nav  */
+nav li, a{
+    display:inline;
+    text-decoration: none;
+    font-size:0.9rem;
+    line-height:2rem;
+    color:white;
+    padding:1rem 0.5rem;
+    font-family: sans-serif;
+}
 /* MAIN */
 .row{
-    height:30rem;
-    flex-basis:80%;
+    height:35rem;
     display:flex;
     justify-content: center;
-    background-color: rgb(138, 123, 123);
     margin:auto;
-    margin-top:3rem;
     gap:1rem;
 }
-
-.row-info{
-    display:flex;
-    justify-content:center;
-    background-color: rgb(95, 89, 89);
-    padding:0rem 10rem;
+.item{
+    position:relative;
 }
 
+.item img{
+    height:30rem;   
+}
+
+.who{
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    color:rgb(54, 54, 54);
+}
+.what, .price{
+    font-size:0.9rem;
+    font-family: sans-serif;
+}
+.price{
+    color:red;
+}
+span:only-child{
+    text-decoration:line-through;
+    color:rgb(62, 62, 62);
+}
+/* DISCOUNT AND LABEL */
+.discount{
+    height:1.5rem;
+    width:3rem;
+    background-color: red;
+    position:absolute;
+    bottom:8rem;
+    color:white;
+    font-family:sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+.bg-green{
+    height:1.5rem;
+    background-color: rgb(24, 107, 57);
+    position:absolute;
+    bottom:8rem;
+    left:3.5rem;
+    color:white;
+    font-family:sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    text-align: center;
+    padding:0rem 0.5rem;
+}
+.heart{
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    top:1rem;
+    right:0rem;
+    color:rgb(20, 20, 20);
+    font-family:sans-serif;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    text-align: center;
+    padding:0rem 0.8rem;
+}
+.left-label{
+    left:0rem;
+}
+/* FOOTER */
+footer{
+    background-color: black;
+}
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    padding:1rem 12rem;
+}
+footer h3, h5{
+    color:white;
+    font-size:1.1rem;
+}
+footer a{
+    text-align: left;
+    padding:0rem;
+    text-align: left;
+}
+ul>li{
+    padding:0rem;
+    padding:0rem 1rem 0rem 0rem;
+}
