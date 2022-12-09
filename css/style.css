@@ -65,7 +65,7 @@ span:only-child{
     text-decoration:line-through;
     color:rgb(62, 62, 62);
 }
-/* DISCOUNT AND LABEL */
+/* DISCOUNT AND LABELS */
 .discount{
     height:1.5rem;
     width:3rem;
@@ -137,7 +137,7 @@ h5{
     color:white;
     text-align: center;
 }
-/* icons */
+/* footer icons */
 .footer>i{
     color:white;
     padding:0.1rem;
