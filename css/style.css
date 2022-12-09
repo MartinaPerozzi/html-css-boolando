@@ -7,17 +7,15 @@
     justify-content:center;
     align-items: center;
     margin-bottom:2.9rem;
-    gap:12rem;
+    gap:18rem;
+    padding:0.8rem;
 }
 .logo{
     flex-basis:10%;
     padding:0.5rem;
 }
-.icons{
-    flex-basis:20%;
-    text-align: right;
-}
-.header>i{
+
+.icons>i{
     color:white;
     padding:0.1rem;
 }
@@ -56,9 +54,11 @@ nav li, a{
 }
 .who{
     color:rgb(97, 97, 97);
+    font-weight: lighter;
 }
 .price{
     color:red;
+    font-weight: bold;
 }
 
 span:only-child{
@@ -80,16 +80,16 @@ span:only-child{
 }
 .bg-green{
     height:1.5rem;
-    background-color: rgb(24, 107, 57);
+    background-color: rgb(29, 105, 60);
     position:absolute;
     bottom:7rem;
     left:3.5rem;
     color:white;
     font-family:sans-serif;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1.5rem;
     text-align: center;
-    padding:0rem 0.5rem;
+    padding:0rem 0.6rem;
 }
 .heart{
     background-color: rgb(255, 255, 255);
