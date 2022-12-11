@@ -1,4 +1,8 @@
 /* HEADER */
+header{
+    position:fixed;
+    z-index: 1;
+}
 .header-bg{
     background-color: #ff6309;
 }
@@ -6,9 +10,10 @@
     display:flex;
     justify-content:center;
     align-items: center;
-    margin-bottom:2.9rem;
+    margin-bottom:1rem;
     gap:18rem;
-    padding:0.8rem;
+    padding:0.8rem 0rem 0.6rem;
+    
 }
 .logo{
     flex-basis:10%;
@@ -31,6 +36,9 @@ nav li, a{
     font-family: sans-serif;
 }
 /* MAIN */
+main{
+    padding:9rem 0rem 0rem;
+}
 .row{
     height:35rem;
     display:flex;
