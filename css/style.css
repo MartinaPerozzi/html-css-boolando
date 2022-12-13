@@ -4,6 +4,7 @@ header{
     z-index: 1;
     box-shadow: 0px 0px 8px black;
     width:100%;
+    min-width:1200px;
 }
 .header-bg{
     background-color: #ff6309;
@@ -39,6 +40,7 @@ nav li, a{
 /* MAIN */
 main{
     padding:9rem 0rem 0rem;
+    min-width:1200px;
 }
 .row{
     height:35rem;
@@ -120,6 +122,7 @@ footer{
     background-color: black;
 }
 .footer-container{
+    min-width:1200px;
     display:flex;
     justify-content:space-between;
     padding:1rem 13rem;
@@ -156,6 +159,7 @@ h5{
     color:red;
     font-size:1rem;
 }
+
 .hover-img{
     position:absolute;
     left:0rem;
